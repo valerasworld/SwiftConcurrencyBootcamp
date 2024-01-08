@@ -55,14 +55,17 @@ class DoTryCatchThrowsBootcampModel: ObservableObject {
     let manager = DoTryCatchThrowsDataManager()
 
     func fetchTitle() {
+        // func getTitle() -> (title: String?, error: Error?)
         /*
-         let returnedValue = manager.getTitle()
-         if let newTitle = returnedValue.title {
-         self.text = newTitle
-         } else if let error = returnedValue.error {
-         self.text = error.localizedDescription
-         }
-         */
+        let returnedValue = manager.getTitle()
+        if let newTitle = returnedValue.title {
+            self.text = newTitle
+        } else if let error = returnedValue.error {
+            self.text = error.localizedDescription
+        }
+        */
+        
+        // func getTitle2() -> Result<String, Error> // need to handle cases
         /*
         let result = manager.getTitle2()
         
@@ -74,12 +77,21 @@ class DoTryCatchThrowsBootcampModel: ObservableObject {
         }
          */
         
+        // func getTitle3() throws -> String
+        /*
+        // the only optional try? doesn't need to ne nested in do-catch
 //        let newTitle = try? manager.getTitle3()
 //        if let newTitle = newTitle {
 //            self.text = newTitle
 //        }
+        */
         
+        // func getTitle3() throws -> String
+        // func getTitle4() throws -> String
         do {
+            // if one of try(-ies) fails,
+            // other lines in a do-block won't be executed
+            // But if the optional - try? - fails, it will execute the next one
             let newTitle = try? manager.getTitle3()
             if let newTitle = newTitle {
                 self.text = newTitle
