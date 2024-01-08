@@ -12,6 +12,7 @@
 		9FB0DFC62B4C676C00863B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0DFC52B4C676C00863B28 /* Assets.xcassets */; };
 		9FB0DFC92B4C676C00863B28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0DFC82B4C676C00863B28 /* Preview Assets.xcassets */; };
 		9FB0DFD02B4C67B000863B28 /* DoTryCatchThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0DFCF2B4C67B000863B28 /* DoTryCatchThrowsBootcamp.swift */; };
+		9FB0DFD22B4C76E800863B28 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0DFD12B4C76E800863B28 /* DownloadImageAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9FB0DFC52B4C676C00863B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB0DFC82B4C676C00863B28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FB0DFCF2B4C67B000863B28 /* DoTryCatchThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrowsBootcamp.swift; sourceTree = "<group>"; };
+		9FB0DFD12B4C76E800863B28 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				9FB0DFC12B4C676400863B28 /* SwiftConcurrencyBootcamp2App.swift */,
 				9FB0DFC32B4C676400863B28 /* ContentView.swift */,
 				9FB0DFCF2B4C67B000863B28 /* DoTryCatchThrowsBootcamp.swift */,
+				9FB0DFD12B4C76E800863B28 /* DownloadImageAsync.swift */,
 				9FB0DFC52B4C676C00863B28 /* Assets.xcassets */,
 				9FB0DFC72B4C676C00863B28 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB0DFD22B4C76E800863B28 /* DownloadImageAsync.swift in Sources */,
 				9FB0DFC42B4C676400863B28 /* ContentView.swift in Sources */,
 				9FB0DFD02B4C67B000863B28 /* DoTryCatchThrowsBootcamp.swift in Sources */,
 				9FB0DFC22B4C676400863B28 /* SwiftConcurrencyBootcamp2App.swift in Sources */,
