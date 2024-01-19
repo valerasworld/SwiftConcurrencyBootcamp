@@ -21,6 +21,7 @@
 		9FB0DFD42B4CA4AB00863B28 /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0DFD32B4CA4AB00863B28 /* AsyncAwaitBootcamp.swift */; };
 		9FB0DFD62B4CACB900863B28 /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0DFD52B4CACB900863B28 /* TaskBootcamp.swift */; };
 		9FDAFF2B2B560150008DDAAA /* CheckedContinuationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDAFF2A2B560150008DDAAA /* CheckedContinuationBootcamp.swift */; };
+		9FDE77D12B59F240003625B1 /* SendableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE77D02B59F240003625B1 /* SendableBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		9FB0DFD32B4CA4AB00863B28 /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
 		9FB0DFD52B4CACB900863B28 /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
 		9FDAFF2A2B560150008DDAAA /* CheckedContinuationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationBootcamp.swift; sourceTree = "<group>"; };
+		9FDE77D02B59F240003625B1 /* SendableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				9F417EDA2B575AE9001D79DF /* StructClassActorBootcamp.swift */,
 				9F417EDC2B588F84001D79DF /* ActorsBootcamp.swift */,
 				9F417EDE2B58ABB2001D79DF /* GlobalActorBootcamp.swift */,
+				9FDE77D02B59F240003625B1 /* SendableBootcamp.swift */,
 				9FB0DFC52B4C676C00863B28 /* Assets.xcassets */,
 				9FB0DFC72B4C676C00863B28 /* Preview Content */,
 			);
@@ -170,6 +173,7 @@
 				9FB0DFD22B4C76E800863B28 /* DownloadImageAsync.swift in Sources */,
 				9FB0DFC42B4C676400863B28 /* ContentView.swift in Sources */,
 				9FB0DFD02B4C67B000863B28 /* DoTryCatchThrowsBootcamp.swift in Sources */,
+				9FDE77D12B59F240003625B1 /* SendableBootcamp.swift in Sources */,
 				9F417EDD2B588F84001D79DF /* ActorsBootcamp.swift in Sources */,
 				9FDAFF2B2B560150008DDAAA /* CheckedContinuationBootcamp.swift in Sources */,
 				9F417EDB2B575AE9001D79DF /* StructClassActorBootcamp.swift in Sources */,
