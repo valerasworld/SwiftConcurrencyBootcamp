@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftConcurrencyBootcamp2App: App {
     var body: some Scene {
         WindowGroup {
-            GlobalActorBootcamp()
+            AsyncPublisherBootcamp()
         }
     }
 }
